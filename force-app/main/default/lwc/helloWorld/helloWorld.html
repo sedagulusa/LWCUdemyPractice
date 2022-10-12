@@ -1,0 +1,16 @@
+<template>
+    <!--one way data binding with the {} default-->
+    <div>Hello world!My name is {fullname} and I am {age} years old.</div>
+    <div>Hi again my username is {details.username}.</div>
+
+      <!--two way data binding is achieved with change handler-->
+    <lightning-card  title="Two way data binding">
+        <div class="slds-var-m-around_medium">
+        <lightning-input type="text" 
+                         label='Enter the course name' 
+                         onkeyup={changeHandler}>
+        </lightning-input>
+        <div>{fullname} course is giving {name} training.</div>
+    </div>
+    </lightning-card> 
+</template>

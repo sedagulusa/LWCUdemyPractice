@@ -1,0 +1,20 @@
+/*element-tag*/
+p{
+    color:green;
+    border: 5px solid red;
+    font-size:30px
+}
+/*classes*/
+.user{
+    color:pink;
+    border: 5px solid violet;
+    font-weight: bold;
+    font-size:25px;
+    margin-top: 05%;
+}
+/*pseudo-classes*/
+.user:hover{
+    font-size: 50px;
+    color:yellow
+}
+/*dont use #id in css for lwc styling*/

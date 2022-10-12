@@ -1,0 +1,18 @@
+<template>
+    <lightning-card title="@track Properties">
+        <div class="slds-var-m-around_medium">
+            <lightning-input type="text"
+                             label="Enter your city"
+                             onkeyup={changeHandler}>
+            </lightning-input>
+            <div>{address.city} is my city.And my state code is {stateCodes}</div>
+        </div>
+    </lightning-card>
+    
+    <lightning-card title="Getters">
+        <div class="slds-var-m-around_medium">
+            <div>First user name is {firstUser}</div>
+            <div>Product {num1} and {num2} is {multiply}. </div>
+        </div>
+    </lightning-card>
+</template> 
