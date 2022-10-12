@@ -6,7 +6,4 @@ export default class DynamicStyling extends LightningElement {
     changeHandler(event){
       this.percent=event.target.value
     }
-    get percentage(){
-        return `width:${this.percent}%`
-    }
 }
